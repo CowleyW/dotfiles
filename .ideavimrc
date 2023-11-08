@@ -1,0 +1,17 @@
+""" Clone this file into C:/Users/<username>/ or ~/
+
+let mapleader = " "
+let maplocalleader = " "
+
+""" -----------------------------------
+set number relativenumber
+
+set visualbell
+set noerrorbells
+
+""" Mappings --------------------------
+xmap J :m '>+1<CR>gv=gv
+xmap K :m '<--2<CR>gv=gv
+
+nmap J <Action>(MethodUp)
+nmap K <Action>(MethodDown)
